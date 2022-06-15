@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Laundry and cleaning service based in Dar Es Salaam, that deals with garment, office, car seats and carpet cleaning. Our service is accessed through online plartforms such as social media and the website where a customer may place an order and pick-up location so he/she can be served. We pick garments everyday from 08:00 to 11:00 and return them at 16:00-18:00">
+    <meta name="keywords" content="cleaning, laundry,garment cleaning,pick-up service,12-hour service,car carpets, car seats,">
+    <title>
+        SIWIFARMS| About</title>
+
+    
+
+    <!--google fonts-->
+     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header class="sub-header" id="header">
+<nav>
+    <!--this is branding-->
+    <div class="branding">
+<h1>
+    <a href="#header">SIWIFARMS</a>
+</h1>
+    </div>
+    <!--this is navigation-->
+    <div class="nav-links" id="navLinks">
+        <!--this is closing icon-->
+        <i class="fa fa-times" id="hidemenu" onclick="hideMenu()"></i>
+        <ul>
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li>
+                <a href="service.html">FARMING</a>
+            </li>
+            <li>
+                <a href="contact.html">CONTACT</a>
+                </li>
+        </ul>
+    </div>
+    <!--this humberger menu-->
+    <i class="fa fa-bars" id="showmenu"onclick="showMenu()"></i>
+
+</nav>
+
+<!--ABOUT US TITLE-->
+<main>
+    <h1>
+        ABOUT US
+    </h1>
+</main>
+</header>
+<section class="about">
+    <div class="row">
+        <div class="about-col">
+<h1>
+    ABOUT SIWIFARMS
+</h1>
+<p>
+    Siwi Farms is a female locally owned organization that majors in farming of rice at Ruvu, we employ over 200 people who are locals solving employment problem and helping to feed the world. our farming methods are modern and assures delivery of high quality rice to the Tanzanian market and the world at large. 
+</p>
+<a href="contact.html" class="visit-button about-button">Learn More</a>
+        </div>
+        <div class="about-col">
+<img src="assets/rice.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <!-- <h4>
+        Let's Connect
+    </h4>
+    <p class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+    </p> -->
+    <p>&copy SIWIFARMS 2022</p>
+</footer>
+ <!--js for toggle menu-->
+    <script>
+        
+        function showMenu(){
+            var navLinks = document.getElementById("navLinks");
+         navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-300px"
+        }
+
+    </script>
+
+    
+</body>
+</html>
